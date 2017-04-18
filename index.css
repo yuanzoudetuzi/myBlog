@@ -1,0 +1,86 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    height: 50%;
+    width: 100%;
+    background: url("img/bg.jpg");
+    -moz-background-size:100% 100%; /* 老版本的 Firefox */
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+
+nav {
+    height: 70px;
+    width: 30%;
+    margin-left: 70%;
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 50px;
+}
+
+ul {
+
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+nav a {
+    background-color: rgba(245,242,237,0);/* IE9、标准浏览器、IE6和部分IE7内核的浏览器(如QQ浏览器)会读懂 */
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: black;
+    background-color: rgba(245,242,237,0);/* IE9、标准浏览器、IE6和部分IE7内核的浏览器(如QQ浏览器)会读懂 */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li ul {
+    float: none;
+    padding: 0px;
+    /* margin: 0px;*/
+    margin-left: 4px;
+    position: absolute;
+    text-align: center;
+    display: none;
+    margin-top: 10px;
+}
+
+nav ul li ul li{
+    float: none;
+    margin-top: 2px;
+    text-align: center;
+}
+
+nav ul li ul li a{
+    font-size: 16px;
+
+}
+
+#category {
+    margin-top: 20px;
+    height: 40%;
+    width: 100%;
+    background-color: #cccccc;
+}
+
+#category a {
+
+}
+
